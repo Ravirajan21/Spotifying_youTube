@@ -6,7 +6,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 # Spotify setup
 
-client_credentials_manager = SpotifyClientCredentials(client_id='a8f010c11cec4caf87ab483cf4566996', client_secret='d3fe351f8c874e16b97b4c37eb08c801')
+client_credentials_manager = SpotifyClientCredentials(client_id='Your_Client_id', client_secret='Your_Client_Secret')
 spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # YouTube setup
@@ -74,5 +74,5 @@ def create_youtube_playlist_from_spotify(spotify_playlist_id, playlist_title):
             ).execute()
 
 # Example usage
-spotify_playlist_id = '28vCwVRrjLzdeNjc5vhpyn'
+spotify_playlist_id = 'Playlist_id'
 create_youtube_playlist_from_spotify(spotify_playlist_id, "My Spotify Playlist on YouTube")
