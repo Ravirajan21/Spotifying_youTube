@@ -1,0 +1,14 @@
+
+{
+    "spotify": {
+        "client_id": "Your_Spotify_Client_ID",
+        "client_secret": "Your_Spotify_Client_Secret",
+        "redirect_uri": "Your_Spotify_Redirect_URI"
+    },
+    "youtube": {
+        "client_secrets_file": "path/to/your/client_secrets.json"
+    },
+    "playlist": {
+        "youtube_playlist_id": "Your_YouTube_Playlist_ID"
+    }
+}
